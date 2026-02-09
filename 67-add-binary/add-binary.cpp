@@ -8,13 +8,15 @@ public:
         carry=0;
         while(i>=0||j>=0||carry){
             if(i>=0){
-                bitA=a[i--]-'0';
+                bitA=a[i]-'0';
+                i--;
             }
             else{
                 bitA=0;
             }
             if(j>=0){
-                bitB=b[j--]-'0';
+                bitB=b[j]-'0';
+                j--;
             }
             else{
                 bitB=0;
