@@ -31,3 +31,5 @@ public:
         return ans;
     }
 };
+
+//EXACTLY SAME AS ADDING TWO LINKED LIST ... SAME CODE SAME LOGIC SAME SAME!
