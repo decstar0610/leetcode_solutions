@@ -4,4 +4,3 @@ on s.student_id =e.student_id and sub.subject_name=e.subject_name
 group by s.student_id , student_name , subject_name
 order by s.student_id
 ;
-
